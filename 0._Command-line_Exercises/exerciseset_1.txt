@@ -1,0 +1,13 @@
+1: write something in a file called bay.txt
+echo "I am writing something in this file called bay.txt" >> bay.txt
+
+2: echo 'bay salvation beat pioneer depression' into the file
+echo "bay salvation beat pioneer depression" >> bay.txt
+
+3: output the content of any file in the directory
+cat bay.txt
+
+4: delete the last file you created
+rm bay.txt
+
+
