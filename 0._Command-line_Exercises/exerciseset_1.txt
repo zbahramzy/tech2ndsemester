@@ -1,13 +1,199 @@
 1: write something in a file called bay.txt
-echo "I am writing something in this file called bay.txt" >> bay.txt
+$ echo "I am writing something in this file called bay.txt" >> bay.txt
 
 2: echo 'bay salvation beat pioneer depression' into the file
-echo "bay salvation beat pioneer depression" >> bay.txt
+$ echo "bay salvation beat pioneer depression" >> bay.txt
 
 3: output the content of any file in the directory
-cat bay.txt
+$ cat bay.txt
 
 4: delete the last file you created
+$ rm bay.txt
+
+5: create a file called rain.txt. Put the text 'proportion stock on terminal honor' in it and copy it so there is also a responsibility.txt with same content
+$ echo "proportion stock on terminal honor" >> rain.txt & cp rain.txt responsibility.txt
+
+6: delete the last file you created
+$ rm responsibility.txt
+
+7: output who the active user is
+$ whoami
+
+8: create a file called depression.txt and rename it so that it's called regret.txt instead. Hint: This should be done in 2 commands
+$ touch depression.txt & mv depression.txt regret.txt
+
+9: write something in a file called evaluate.txt
+$ echo "something" >> evaluate.txt
+
+10: output what's in the directory
+$ ls
+
+11: output the full path you are on
+$ pwd
+
+12: echo 'rider sister shot depression on' into the file
+$ echo "rider sister shot depression on" >> evaluate.txt
+
+13: output hidden files
+$ ls -ld .*
+
+14: create two directories pen and salvation and move into salvation
+$ mkdir pen salvation
+$ cd salvation
+
+15: output what's in the directory
+$ ls
+
+16: delete the last file you created
+$ rm regret.txt
+
+17: output the content of any file in the directory
+$ cat rain.txt
+
+18: output the sizes of the files in the directory
+$ ls -hl
+
+19: create a file called support.txt and rename it so that it's called bay.txt instead. Hint: This should be done in 2 commands
+$ touch support.txt
+$ mv support.txt bay.txt
+
+20: write something in a file called appreciate.txt
+$ echo "writing something" >> appreciate.txt
+
+21: create a file called ditch.txt and immediately delete it
+$ touch ditch.txt 
+$ rm ditch.txt
+
+22: delete the last file you created
+$ rm appreciate.txt
+
+23: delete the last file you created
+$ rm evaluate.txt
+
+24: create a file called beat.txt. Put the text 'discover rider responsibility shot advantage' in it and copy it so there is also a rain.txt with same content
+$ echo "discover rider responsibility shot advantage" >> beat.txt & cp beat.txt rain.txt
+
+25: create a directory discover and move into the directory
+$ mkdir discover
+$ cd discover
+
+26: output hidden files
+$ ls -ld .*
+
+move two folders up
+$ cd ../..
+
+28: move one level up
+$ cd ..
+
+29: output hidden files
+$ ls -ld .*
+
+30: output hidden files
+$ ls -ld .*
+
+31: delete the last file you created
 rm bay.txt
+
+32: open a file in the terminal and see the content
+$ nano beat.txt
+
+33: output the content of any file in the directory
+$ cat beat.txt
+
+34: output who the active user is
+$ whoami
+
+35: write something in a file called interference.txt
+$ echo "writing something" >> interference.txt
+
+36: create a file called responsibility.txt. Put the text 'speculate rain rider pray responsibility' in it and copy it so there is also a excuse.txt with same content
+$ echo "speculate rain rider pray responsibility" >> responsibility.txt & cp responsibility.txt excuse.txt
+
+37: echo 'cater difficulty cater identity advantage' into the file
+$ echo "cater difficulty cater identity advantage" >> excuse.txt
+
+38: move two folders up
+$ cd ../..
+
+39: delete the last folder you created
+$ rmdir discover
+
+40: output who the active user is
+$ whoami
+
+41: delete the last folder you created
+$ rmdir discover
+
+42: output what's in the directory
+$ ls
+
+43: delete the last file you created
+$ rm responsibility.txt
+
+44: create a file called excuse.txt
+$ touch excuse.txt
+
+45: output the sizes of the files in the directory
+$ ls -hl
+
+46: create a file called interference.txt and rename it so that it's called cater.txt instead. Hint: This should be done in 2 commands
+$ touch interference.txt
+$ mv interference.txt cater.txt
+
+47: echo 'advice advantage cater abortion recession' into the file
+$ echo "advice advantage cater abortion recession" >> cater.txt
+
+48: create a file called advice.txt. Put the text 'honor architecture pray depression salvation' in it and copy it so there is also a pioneer.txt with same content
+$ echo "honor architecture pray depression salvation" >> advice.txt & cp advice.txt pioneer.txt
+
+49: move one level up
+$ cd ..
+
+50: create a file called sister.txt
+$ touch sister.txt
+
+51: output what's in the directory
+$ ls
+
+52: if there are any directories in the folder then move inside any one of them
+$ ***************************
+
+53: create two directories discover and cater and move into cater
+$ mkdir discover cater
+$ cd cater
+
+54: delete the last file you created
+$ rm advice.txt
+
+55: move one level up
+$ cd ..
+
+56: output who the active user is
+$ whoami
+
+57: move two folders up
+$ cd ../..
+
+58: delete the last folder you created
+$ rmdir cater
+
+59: create two directories needle and identity and move into identity
+$ mkdir needle identity
+$ cd identity
+
+60: create a file called nerve.txt and rename it so that it's called proportion.txt instead. Hint: This should be done in 2 commands
+$ touch nerve.txt
+$ mv nerve.txt proportion.txt
+
+
+
+
+
+
+
+ 
+
+
 
 
