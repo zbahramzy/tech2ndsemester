@@ -1,0 +1,21 @@
+SHOW TABLES;
+# comment, like this
+-- comment, or this
+/*
+or like this
+*/
+
+CREATE TABLE IF NOT EXISTS movies (
+    title VARCHAR(3000) NOT NULL
+);
+
+ALTER TABLE movies
+ADD COLUMN year INT(4) AFTER title;
+
+ALTER TABLE movies
+MODIFY year YEAR;
+
+DROP TABLE movies;
+# DATABASES, TABLES, COLUMNS    vs. DATA (in ROWS)
+# DATA DEFINITION LANGUAGE (DDL) vs. DATA MANIPULATION LANGUAGE (DML)
+# CREATE, READ, UPDATE, and UPDATE (CRUD)

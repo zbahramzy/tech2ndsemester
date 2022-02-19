@@ -157,7 +157,8 @@ $ touch sister.txt
 $ ls
 
 52: if there are any directories in the folder then move inside any one of them
-$ ***************************
+$ ls
+$ cd anydirectory 
 
 53: create two directories discover and cater and move into cater
 $ mkdir discover cater
@@ -185,6 +186,26 @@ $ cd identity
 60: create a file called nerve.txt and rename it so that it's called proportion.txt instead. Hint: This should be done in 2 commands
 $ touch nerve.txt
 $ mv nerve.txt proportion.txt
+
+61: echo 'degree correspondence needle plane discover' into the file
+$ echo "degree correspondence needle plane discover" >> proportion.txt
+
+62: write something in a file called surprise.txt
+$ echo "something" >> surprise.txt
+
+63: output who the active user is
+$ whoami
+
+64: open a file in the terminal and see the content
+$ nano beat.txt
+
+65: move two folders up
+$ cd ../..
+
+66: create a file called proportion.txt
+$ touch proportion.txt
+
+67: create a file called regret.txt. Put the text 'difficulty needle proportion appreciate excuse' in it and copy it so there is also a abortion.txt with same content
 
 
 
