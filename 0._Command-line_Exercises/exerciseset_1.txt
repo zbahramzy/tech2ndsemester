@@ -11,7 +11,7 @@ $ cat bay.txt
 $ rm bay.txt
 
 5: create a file called rain.txt. Put the text 'proportion stock on terminal honor' in it and copy it so there is also a responsibility.txt with same content
-$ echo "proportion stock on terminal honor" >> rain.txt & cp rain.txt responsibility.txt
+$ echo "proportion stock on terminal honor" >> rain.txt && cp rain.txt responsibility.txt
 
 6: delete the last file you created
 $ rm responsibility.txt
@@ -20,7 +20,7 @@ $ rm responsibility.txt
 $ whoami
 
 8: create a file called depression.txt and rename it so that it's called regret.txt instead. Hint: This should be done in 2 commands
-$ touch depression.txt & mv depression.txt regret.txt
+$ touch depression.txt && mv depression.txt regret.txt
 
 9: write something in a file called evaluate.txt
 $ echo "something" >> evaluate.txt
@@ -68,7 +68,7 @@ $ rm appreciate.txt
 $ rm evaluate.txt
 
 24: create a file called beat.txt. Put the text 'discover rider responsibility shot advantage' in it and copy it so there is also a rain.txt with same content
-$ echo "discover rider responsibility shot advantage" >> beat.txt & cp beat.txt rain.txt
+$ echo "discover rider responsibility shot advantage" >> beat.txt && cp beat.txt rain.txt
 
 25: create a directory discover and move into the directory
 $ mkdir discover && cd discover
@@ -104,7 +104,7 @@ $ whoami
 $ echo "writing something" >> interference.txt
 
 36: create a file called responsibility.txt. Put the text 'speculate rain rider pray responsibility' in it and copy it so there is also a excuse.txt with same content
-$ echo "speculate rain rider pray responsibility" >> responsibility.txt & cp responsibility.txt excuse.txt
+$ echo "speculate rain rider pray responsibility" >> responsibility.txt && cp responsibility.txt excuse.txt
 
 37: echo 'cater difficulty cater identity advantage' into the file
 $ echo "cater difficulty cater identity advantage" >> excuse.txt
@@ -140,7 +140,7 @@ $ touch interference.txt && mv interference.txt cater.txt
 $ echo "advice advantage cater abortion recession" >> cater.txt
 
 48: create a file called advice.txt. Put the text 'honor architecture pray depression salvation' in it and copy it so there is also a pioneer.txt with same content
-$ echo "honor architecture pray depression salvation" >> advice.txt & cp advice.txt pioneer.txt
+$ echo "honor architecture pray depression salvation" >> advice.txt && cp advice.txt pioneer.txt
 
 49: move one level up
 $ cd ..
