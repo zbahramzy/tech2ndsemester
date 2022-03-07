@@ -5,8 +5,21 @@ SHOW TABLES;
 or like this
 */
 
+SHOW TABLES;
+
 CREATE TABLE IF NOT EXISTS movies (
-    title VARCHAR(3000) NOT NULL
+    id INT AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    year YEAR,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE IF NOT EXISTS directors (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    movie_id INT,
+    FOREIGN KEY(movie_id) REFERENCES movies(id),
+    PRIMARY KEY(id)
 );
 
 ALTER TABLE movies
