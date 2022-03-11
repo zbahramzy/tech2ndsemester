@@ -6,7 +6,7 @@
 
 #### Smallest one
 
-This is for normal text.
+This is for cool text.
 
 *Italic*
 
@@ -15,5 +15,5 @@ This is for normal text.
 ~~Strikethrough~~
 
 [This repository]
-(https://github.com/anderslatif)
+(https://github.com/zbahramzy)
 
