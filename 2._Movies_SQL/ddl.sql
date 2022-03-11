@@ -1,11 +1,4 @@
 SHOW TABLES;
-# comment, like this
--- comment, or this
-/*
-or like this
-*/
-
-SHOW TABLES;
 
 CREATE TABLE IF NOT EXISTS movies (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -46,13 +39,15 @@ CREATE TABLE IF NOT EXISTS movies_production_teams (
     FOREIGN KEY (production_team_id) REFERENCES production_teams(id) ON DELETE CASCADE
 );
 
-ALTER TABLE movies
-ADD COLUMN year INT(4) AFTER title;
-
-ALTER TABLE movies
-MODIFY year YEAR;
+ALTER TABLE movies ADD COLUMN year YEAR NOT NULL AFTER title;
+ALTER TABLE movies DROP COLUMN  year;
+ALTER TABLE movies MODIFY year INT(4);
 
 DROP TABLE movies;
-# DATABASES, TABLES, COLUMNS    vs. DATA (in ROWS)
+
 # DATA DEFINITION LANGUAGE (DDL) vs. DATA MANIPULATION LANGUAGE (DML)
 # CREATE, READ, UPDATE, and UPDATE (CRUD)
+
+# DATABASES,TABLES,COLUMNS vs. DATA (in ROWS)
+# DDL                      vs. DML
+# CRUD

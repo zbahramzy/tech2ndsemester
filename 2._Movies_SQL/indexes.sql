@@ -1,10 +1,11 @@
-# todo create an index on movie ids
-#  and another one on movies.title
-USE movies;
-CREATE INDEX id_index ON movies (id);
 
-CREATE INDEX title_index ON movies (title);
+CREATE INDEX movies_ids ON movies(id);
 
-CREATE INDEX id_title_index ON movies (id, title);
+CREATE INDEX movies_titles ON movies(title);
 
-SHOW ENGINES;
+CREATE INDEX movies_ids_titles ON movies(id, title);
+
+/* Specified key was too long; max key length is 3072 bytes */
+
+# Pros: SELECT is much faster
+# Cons: INSERT, UPDATE, DELETE is much slower
