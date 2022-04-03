@@ -1,0 +1,8 @@
+USE zaland_bank;
+SHOW TABLES;
+
+CREATE TABLE IF NOT EXISTS accounts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    balance FLOAT
+);

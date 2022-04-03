@@ -51,3 +51,4 @@ DROP TABLE movies;
 # DATABASES,TABLES,COLUMNS vs. DATA (in ROWS)
 # DDL                      vs. DML
 # CRUD
+

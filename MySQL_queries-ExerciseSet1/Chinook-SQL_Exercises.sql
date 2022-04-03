@@ -7,7 +7,8 @@ WHERE Playlist.Name='Grunge' AND Track.TrackId=PlaylistTrack.TrackId AND Playlis
 -- 2. Show information about artists whose name includes the text “Jack” and
 -- about artists whose name includes the text “John”, but not the text “Martin”.
 SELECT * FROM Artist
-WHERE (Name LIKE '%Jack%' OR Name LIKE '%John%') AND Name NOT LIKE '%Martin%';
+WHERE Name LIKE '%Jack%'
+OR (Name LIKE '%John%' AND Name NOT LIKE '%Martin%');
 
 -- 3. For each country where some invoice has been issued, show the total invoice monetary amount,
 -- but only for countries where at least $100 have been invoiced.
