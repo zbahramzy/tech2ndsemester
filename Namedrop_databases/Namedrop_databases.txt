@@ -1,0 +1,19 @@
+# List 6 relational databases
+    - Oracle Database
+    - MySQL
+    - Microsoft SQL Server
+    - PostgreSQL
+    - IBM Db2
+    - Microsoft Access
+
+# List at least 1 of each of the NoSQL categories
+    NoSQL databases:
+    - Key-Value Stores – AmazonDynamoDB
+    - Document Databases – MongoDB
+    - Columnar Databases – Amazon Redshift
+    - Graph Databases – Neo4j
+
+# List 2 in-memory databases
+    In-Memory Databases:
+    - SQLite
+    - MonetDB
